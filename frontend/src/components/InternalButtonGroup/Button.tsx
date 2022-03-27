@@ -16,5 +16,5 @@ const styles = {
 }
 
 export const Button = ({level, goToLevel, selected}: Props) => {
-    return <button onClick={(e) => goToLevel(e, level)} style={{...styles.button, backgroundColor: selected ? '#4fdbff': ''}} id="test_internal_level_button">{level}</button>;
+    return <button onClick={(e) => goToLevel(e, level)} style={{...styles.button, backgroundColor: selected ? '#009cc3': ''}} id="test_internal_level_button">{level}</button>;
 };

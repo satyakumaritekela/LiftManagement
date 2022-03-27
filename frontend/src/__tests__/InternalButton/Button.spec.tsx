@@ -16,7 +16,7 @@ describe('Button', () => {
     });
 
     it('check button if selected', () => {  
-        expect(buttonComponentStyle.backgroundColor).toBe('#4fdbff');
+        expect(buttonComponentStyle.backgroundColor).toBe('#009cc3');
     });
 
     it('check button if clicked', () => {
